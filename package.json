@@ -1,0 +1,25 @@
+{
+  "name": "student_info_system",
+  "version": "1.0.0",
+  "description": "system to keep record of students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seestha/student_Info_System.git"
+  },
+  "author": "saru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seestha/student_Info_System/issues"
+  },
+  "homepage": "https://github.com/seestha/student_Info_System#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10",
+    "body-parser": "^1.14.2",
+    "nodemon": "^1.10.2"
+  }
+}
