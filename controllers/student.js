@@ -30,7 +30,7 @@ exports.getStudents = function(req, res) {
     if (err)
       res.send(err);
 
-    res.json(students);
+    res.json({students:students});
   });
 };
 
@@ -41,7 +41,7 @@ exports.getStudent = function(req, res) {
     if (err)
       res.send(err);
 
-    res.json(student);
+    res.json({student:student});
   });
 };
 
@@ -65,7 +65,7 @@ exports.putStudent = function(req, res) {
       if (err)
         res.send(err);
 
-      res.json(student);
+      res.json({student:student});
     });
   });
 };
